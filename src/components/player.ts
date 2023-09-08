@@ -6,9 +6,9 @@ export class Player {
   r: number;
 
   constructor() {
-    this.x = 10;
+    this.x = 50;
     this.y = canvas.height / 2;
-    this.r = 10;
+    this.r = 30;
   }
 
   draw(c: CanvasRenderingContext2D) {
