@@ -5,6 +5,13 @@
   overflow: hidden;
 }
 
+canvas {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 footer {
   position: fixed;
   width: 100%;
@@ -12,8 +19,8 @@ footer {
   bottom: 0;
   left: 0;
   text-align: center;
-  color: white;
-  font-size: 16px;
+  color: black;
+  font-size: 20px;
 }
 
 footer > a {
