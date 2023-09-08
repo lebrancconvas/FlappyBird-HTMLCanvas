@@ -5,6 +5,11 @@
   overflow: hidden;
 }
 
+header {
+  text-align: center;
+  margin-top: 10px;
+}
+
 canvas {
   position: fixed;
   top: 50%;
